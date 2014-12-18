@@ -1,5 +1,6 @@
-git config --global user.name "ITlearn"
-git config --global user.email "ly15910847483@163.com"
-git init 
-git add file
-
+git config --global user.name "ITlearn"                   指定用户名
+git config --global user.email "ly15910847483@163.com"    指定密码
+git init                                                  初始化git仓库（本目录）
+git add <file>                                            git添加文件                                              
+git commit -m "文件描述"                                  git提交文件
+git status                                                git仓库当前状态
