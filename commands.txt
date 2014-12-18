@@ -8,3 +8,5 @@ git diff commands.txt                                     git文件修改内容
 git log  --pretty=oneline                                 git文件修改记录
 git reset --hard commit_id(HEAD^)                         回退到coommit_id版本(上一版本)
 git reflog                                                git 历史命令
+
+git 修改，若不add到暂存区，就不会加入到commit中
