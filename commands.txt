@@ -1,3 +1,4 @@
+git常用命令：
 git config --global user.name "ITlearn"                   指定用户名
 git config --global user.email "ly15910847483@163.com"    指定密码
 git init                                                  初始化git仓库（本目录）
@@ -8,5 +9,12 @@ git diff commands.txt                                     git文件修改内容
 git log  --pretty=oneline                                 git文件修改记录
 git reset --hard commit_id(HEAD^)                         回退到coommit_id版本(上一版本)
 git reflog                                                git 历史命令
-
+git reset HEAD  commands.txt                              撤销暂存区的内容      
+git checkout -- commands.txt                              撤销工作区的内容
+git rm lience.txt                                         删除文件
 git 修改，若不add到暂存区，就不会加入到commit中
+开始使用github：
+1.sh-keygen -t rsa -C "ly15910847483@163.com"(生成ssh key 密钥对)
+  id_rsa是私钥，id_rsa.pub是公钥
+2.登录github：https://github.com
+3.seeting ——》ssh keys ——》add SSH key （id_rsa.pub内容）
