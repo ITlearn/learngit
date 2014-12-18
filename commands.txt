@@ -1,0 +1,5 @@
+git config --global user.name "ITlearn"
+git config --global user.email "ly15910847483@163.com"
+git init 
+git add file
+
