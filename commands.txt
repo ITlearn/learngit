@@ -5,3 +5,4 @@ git add <file>                                            git添加文件
 git commit -m "文件描述"                                  git提交文件
 git status                                                git仓库当前状态
 git diff commands.txt                                     git文件修改内容
+git log                                                   git文件修改记录
