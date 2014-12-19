@@ -18,6 +18,7 @@ git branch                                                查看分支（当前�
 git merge dev                                             合并分支到当前分支
 git branch -d dev                                         删除分支
 git log --graph                                           查看分支合并图
+git merge --no-ff -m "merge with no-ff" dev               --no-ff合并后历史有分支，能看到曾经做过的合并
 git 修改，若不add到暂存区，就不会加入到commit中
 开始使用github：
 1.sh-keygen -t rsa -C "ly15910847483@163.com"(生成ssh key 密钥对)
