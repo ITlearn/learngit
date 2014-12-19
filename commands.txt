@@ -13,6 +13,10 @@ git reset HEAD  commands.txt                              撤销暂存区的内�
 git checkout -- commands.txt                              撤销工作区的内容
 git rm lience.txt                                         删除文件
 git clone git@github.com:ITlearn/helloword.git            克隆github远程库
+git checkout -b dev(git branch dev; git checkout dev)     创建并切换分支
+git branch                                                查看分支（当前分支前有*）
+git merge dev                                             合并分支到当前分支
+git branch -d dev                                         删除分支
 git 修改，若不add到暂存区，就不会加入到commit中
 开始使用github：
 1.sh-keygen -t rsa -C "ly15910847483@163.com"(生成ssh key 密钥对)
