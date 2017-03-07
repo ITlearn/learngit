@@ -29,7 +29,7 @@ git stash apply stash@{0}                                 恢复到指定stash
 git 修改，若不add到暂存区，就不会加入到commit中
 
 开始使用github：
-1.sh-keygen -t rsa -C "ly15910847483@163.com"(生成ssh key 密钥对)
+1.ssh-keygen -t rsa -C "ly15910847483@163.com"(生成ssh key 密钥对)
   id_rsa是私钥，id_rsa.pub是公钥
 2.登录github：https://github.com
 3.seeting ——》ssh keys ——》add SSH key （id_rsa.pub内容）
